@@ -129,6 +129,7 @@ body {
 .site-head {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #ececec;
 }
 
 /*navigation*/
@@ -157,7 +158,7 @@ body {
 .nav .logo {
   display: block;
   padding-top: 24px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
   margin-right: 93px;
 }
 .site-nav .link {
@@ -327,15 +328,16 @@ body {
   line-height: 1.9;
   color: var(--primary-text-color);
 }
-
-.cars-link {
-  display: block;
+.card {
   text-decoration: none;
+}
+.cars-link {
 }
 .img-card {
   width: 370px;
 }
 .card-content {
+  display: block;
   padding: 20px 24px;
 }
 /*footer*/
