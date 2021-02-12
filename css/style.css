@@ -112,20 +112,18 @@ body {
 }
 /*container*/
 .container {
-  width: 1200px;
+  min-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 .section {
   padding-top: 94px;
-}
-.section:last-child {
   padding-bottom: 94px;
 }
-.section.s-team {
-  margin-top: 94px;
-  padding-bottom: 94px;
+
+.section.no-padding {
+  padding-bottom: 0px;
 }
 /*header*/
 .site-head {
@@ -212,7 +210,7 @@ body {
 .hero {
   text-align: center;
   background: var(--header-footer-fon);
-  max-width: 1600px;
+  min-width: 1200px;
   min-height: 600px;
   display: flex;
   justify-content: center;
@@ -367,4 +365,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.container .footer {
+  background-color: var(--header-footer-fon);
 }
