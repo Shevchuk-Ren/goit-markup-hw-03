@@ -337,6 +337,7 @@ body {
 .card {
   text-decoration: none;
   display: block;
+  border: 1px solid #eeeeee;
 }
 .cars-link {
 }
@@ -344,8 +345,7 @@ body {
   width: 370px;
 }
 .card-content {
-  border: 1px solid #eeeeee;
-  padding: 19px 24px;
+  padding: 20px 24px;
 }
 /*footer*/
 .footer {
